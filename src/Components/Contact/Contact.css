@@ -1,0 +1,19 @@
+.contact{
+    background-color: black;
+    height: 510px;
+    align-items: center;
+    display: flex;
+    overflow-y: scroll;
+}
+.form{
+    max-width: 378px;
+    margin: auto;
+    color: #91998e;
+}
+.form-control{
+    background-color: black !important;
+    color: #91998e !important;
+}
+.form-label{
+    color: #867e84;
+}

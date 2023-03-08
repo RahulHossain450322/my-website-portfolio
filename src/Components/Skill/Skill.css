@@ -1,0 +1,79 @@
+.skills{
+    height: 510px;
+    align-items: center;
+    padding: 10px 0px;
+}
+.persent{
+    color: greenyellow;
+    margin-left: 10%;
+}
+.h2{
+    border-bottom: 1px solid gray;
+}
+.h5{
+    position: relative;
+    margin: 50px 0px !important;
+}
+.h5::before{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    background-color: rgb(58, 49, 49);
+    top: calc(35px);
+    border-radius: 10px;
+}
+.html::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width:80%;
+    background-color: greenyellow;
+    top: calc(35px);
+    border-radius: 10px;
+    left: 0px;
+}
+.css::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width:65%;
+    background-color: greenyellow;
+    top: calc(35px);
+    border-radius: 10px;
+    left: 0px;
+}
+.bs::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width:70%;
+    background-color: greenyellow;
+    top: calc(45px);
+    border-radius: 10px;
+    left: 0px;
+}
+.js::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width:60%;
+    background-color: greenyellow;
+    top: calc(35px);
+    border-radius: 10px;
+    left: 0px;
+}
+.react::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width:50%;
+    background-color: greenyellow;
+    top: calc(35px);
+    border-radius: 10px;
+    left: 0px;
+}
+.skill_content{
+    max-width: 378px;
+    margin: auto;
+}

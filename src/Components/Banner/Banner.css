@@ -1,0 +1,33 @@
+.banner{
+    background-color: rgb(19, 18, 18);
+}
+.banner_content{
+    height:510px;
+    align-items: center;
+    color: #ddd;
+}
+.banner_image_single{
+    width: 200px;
+    transition: transform .5s;
+}
+.img-fluid{
+    width: 100%;
+}
+.banner_image_single:hover{
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width:576px) {
+    .banner_content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner{
+        padding-top: 20px;
+        height: 750px;
+    }
+    .banner_image_single{
+        margin-top: 30px;
+    }
+}

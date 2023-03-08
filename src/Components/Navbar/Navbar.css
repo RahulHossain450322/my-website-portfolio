@@ -1,0 +1,111 @@
+.header{
+    background-color: black !important;
+}
+.nav-link{
+    text-transform: uppercase;
+    color: #ddd;
+}
+
+.icon,.cross_icon {
+    font-size: 40px;
+    color: red;
+    display: none;
+    cursor: pointer;
+}
+.cross_icon{
+    font-size: 20px;
+    position: absolute;
+    right: 27px;
+    top: 20px;
+    transition: transform .5s,color 1s;
+}
+.nav-link.active{
+    color: red !important;
+}
+
+@media screen and (max-width:576px) {
+    .icon{
+        display: block;
+    }
+    .navbar{
+        flex-direction: column;
+        background-color: rgb(19, 17, 17);
+        border-radius: .5rem;
+        width: 250px;
+    }
+    .navbar-content{
+        position:relative;
+    }
+    .navbar_container{
+        position: absolute;
+        transform: translateX(300%);
+        transition:transform .1s;
+        
+        
+    }
+    .active{
+        transform: translateX(110%);   
+    }
+    .hide{
+        transform: translateX(300%);
+    }
+    .cross_icon{
+        display: block;
+    }
+    .cross_icon:hover{
+        color:green;
+        transform: rotate(360deg);
+    }
+    .nav-link.active{
+        color: red !important;
+        transform: translateX(0%);
+    }
+}
+@media screen and (max-width:500px) {
+    .active{
+        transform: translateX(90%);   
+    }
+    .hide{
+        transform: translateX(300%);
+    }
+}
+@media screen and (max-width:456px) {
+    .active{
+        transform: translateX(70%);   
+    }
+    .hide{
+        transform: translateX(300%);
+    }
+}
+@media screen and (max-width:400px) {
+    .active{
+        transform: translateX(50%);   
+    }
+    .hide{
+        transform: translateX(300%);
+    }
+}
+@media screen and (max-width:334px) {
+    .active{
+        transform: translateX(30%);   
+    }
+    .hide{
+        transform: translateX(300%);
+    }
+}
+@media screen and (max-width:286px) {
+    .active{
+        transform: translateX(10%);   
+    }
+    .hide{
+        transform: translateX(300%);
+    }
+}
+@media screen and (max-width:286px) {
+    .active{
+        transform: translateX(0%);   
+    }
+    .hide{
+        transform: translateX(300%);
+    }
+}
