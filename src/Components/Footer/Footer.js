@@ -46,7 +46,7 @@ function Footer() {
                 <div className='follow_icons '>
                     <NavLink to='https://www.facebook.com/profile.php?id=100065615823403'><RiFacebookFill className='follow_icon' /></NavLink>
                     <NavLink to='https://www.linkedin.com/in/rahul-hossain-b3474025a'><TfiLinkedin className='follow_icon' /></NavLink>
-                    <NavLink to='https://github.com/'><TbBrandGithub className='follow_icon' /></NavLink>
+                    <NavLink to='https://github.com/RahulHossain450322'><TbBrandGithub className='follow_icon' /></NavLink>
                 </div>
             </div>
         </div>

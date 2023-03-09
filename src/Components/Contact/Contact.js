@@ -3,6 +3,10 @@ import ContactStyle from './Contact.css'
 import {useFormik} from 'formik'
 import * as Yup from 'yup';
 
+import { CgDanger } from "react-icons/cg";
+
+//CgDanger
+
 function Contact() {
   const formik = useFormik({
     initialValues:{
@@ -37,7 +41,7 @@ function Contact() {
                     type='text'
                     className='form-control mb-1'
                     id='name' />
-                    {formik.touched.name && formik.errors && <span className='formik_errors text-danger'>{formik.errors.name}</span>}
+                    {formik.touched.name && formik.errors && <span className=' text-danger'>{formik.errors.name}</span>}
 
                 </div>
                 <div className='form_div mt-3'>
@@ -48,7 +52,7 @@ function Contact() {
                      type='email'
                      className='form-control mb-1' 
                      id='email' />
-                     {formik.touched.email && formik.errors && <span className='formik_errors text-danger'>{formik.errors.email}</span>}
+                     {formik.touched.email && formik.errors && <span className=' text-danger'>{formik.errors.email}</span>}
                 </div>
                 <div className='form_div mt-3'>
                     <label className='form-label' htmlFor='comment'>Write Your Cover Letter:</label>
@@ -59,7 +63,7 @@ function Contact() {
                     id='comment'>
 
                     </textarea> 
-                    {formik.touched.comment && formik.errors && <span className='formik_errors text-danger'>{formik.errors.comment}</span>}
+                    {formik.touched.comment && formik.errors && <span className=' text-danger'>{formik.errors.comment}</span>}
                 </div>
                 <div className='form_div mt-3'>
                     <button type='submit' className='btn btn-outline-primary'>Submit</button>

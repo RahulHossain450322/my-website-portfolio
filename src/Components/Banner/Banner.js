@@ -12,7 +12,7 @@ function Banner() {
         <div className='banner_content d-flex justify-content-between'>
             <div className='banner_content_title'>
                 <h2 className='banner_title'>
-                    I am <span className='h1 text-danger'>Rahul Hossain</span><br/>
+                    I am <span className='h1 text-danger'>Rahul Hossain </span><br/>
                     <span className='h1'>Web Developer</span>
                 </h2>
                 <p className='banner_des'>
@@ -26,7 +26,7 @@ function Banner() {
                        eos, sit est.
                 </p>
                 <div className='banner_btn'>
-                    <button className='btn btn-outline-primary'>Download CV <AiOutlineDownload className='download_icon' /></button>
+                    <button className='btn btn-primary'>Download CV <AiOutlineDownload className='download_icon' /></button>
                 </div>
             </div>
             <div className='banner_image'>
