@@ -17,3 +17,11 @@
 .form-label{
     color: #867e84;
 }
+.form_div{
+    position: relative;
+}
+.formik_errors{
+    position: absolute;
+    right:3%;
+    top: 39%;
+}

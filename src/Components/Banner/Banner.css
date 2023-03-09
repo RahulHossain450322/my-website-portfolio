@@ -1,20 +1,24 @@
 .banner{
-    background-color: rgb(19, 18, 18);
+    background: url("BannerImage/photo-1623194466839-7e314f961c8f.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin:content-box;
+}
+.banner_content{
+    
 }
 .banner_content{
     height:510px;
     align-items: center;
-    color: #ddd;
+    color: white !important;
 }
 .banner_image_single{
-    width: 200px;
-    transition: transform .5s;
+    width: 200px;  
 }
 .img-fluid{
     width: 100%;
-}
-.banner_image_single:hover{
-    transform: scale(1.1);
+    border-radius: 0% 0% 1000% 1000%;
 }
 
 
@@ -22,6 +26,7 @@
     .banner_content{
         flex-direction: column;
         text-align: center;
+        color: black !important;
     }
     .banner{
         padding-top: 20px;

@@ -1,9 +1,9 @@
 .header{
-    background-color: black !important;
+    background-color: rgb(14, 14, 14);
 }
 .nav-link{
     text-transform: uppercase;
-    color: #ddd;
+    color: #ddd !important;
 }
 
 .icon,.cross_icon {
