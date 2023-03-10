@@ -17,10 +17,10 @@ function Banner() {
                 </h2>
                 <p className='banner_des'>
                     Et elitr sanctus et rebum ut
-                     elitr lorem.<br/>
+                     elitr lorem.
                       Magna et diam ea
                       dolores dolore eirmod aliquyam 
-                      rebum.<br/>
+                      rebum
                        Sea vero sanctus eirmod 
                       lorem. Kasd sit takimata sea dolor
                        eos, sit est.
