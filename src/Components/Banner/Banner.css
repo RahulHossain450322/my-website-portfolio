@@ -3,10 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-origin:content-box;
-}
-.banner_content{
-    
+    background-color: linear-gradient(red,blue);
 }
 .banner_content{
     height:510px;
@@ -16,9 +13,8 @@
 .banner_image_single{
     width: 200px;  
 }
-.img-fluid{
+.banner-image{
     width: 100%;
-    border-radius: 0% 0% 1000% 1000%;
 }
 
 

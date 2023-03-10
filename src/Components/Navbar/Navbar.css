@@ -8,7 +8,7 @@
 
 .icon,.cross_icon {
     font-size: 40px;
-    color: red;
+    color:#ddd;
     display: none;
     cursor: pointer;
 }

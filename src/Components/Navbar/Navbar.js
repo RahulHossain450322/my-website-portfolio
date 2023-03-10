@@ -2,7 +2,7 @@ import React from 'react'
 
 import NavbarStyle from './Navbar.css'
 import logo from './Logo/logo.png'
-import { BsFillGrid3X3GapFill } from "react-icons/bs";
+import { FaBars } from "react-icons/fa";
 import { TbArrowsCross } from "react-icons/tb";
 import { NavLink } from 'react-router-dom';
 
@@ -48,7 +48,7 @@ const handleHide =()=>{
                 </ul>
             </div>
             <div className='navIcon my-auto'>
-                <BsFillGrid3X3GapFill onClick={handleShow} className='icon' />
+                <FaBars onClick={handleShow} className='icon' />
             </div>
             
         </nav>

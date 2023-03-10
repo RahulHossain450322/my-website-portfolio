@@ -30,8 +30,8 @@ function Banner() {
                 </div>
             </div>
             <div className='banner_image'>
-                <div className='banner_image_single'>
-                    <img className='img-fluid' src={BannerIamge} alt='Banner Images' />
+                <div className='banner_image_single '>
+                    <img className='banner-image border border-1 border-info rounded-circle' src={BannerIamge} alt='Banner Images' />
                 </div>
             </div>
         </div>
